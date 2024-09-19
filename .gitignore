@@ -1,0 +1,73 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+_Tmp/
+.vscode/
+.vscode-test/
+
+# Auto-generated files
+*.log
+*.tlog
+*.tmp
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.opendb
+*.obj
+*.cache
+*.ilk
+*.idb
+*.VC.db
+
+# Visual Studio Code workspace
+.vscode/
+
+# Build Folders (you can tailor this based on your build directories)
+bin/
+obj/
+build/
+ipch/
+_Debug/
+_Release/
+
+# Packages
+packages/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Other Files
+*.Publish.xml
+.project/
+*.PublishProfiles/
+.idea/
+TestResults/
+buildlog.*
+*.rsync/
+.repos/
+ipch/
+
+# Rider specific files
+.idea/
+.idea_modules/
+
+# Windows image file caches
+Thumbs.db
+
+# macOS finder
+.DS_Store
+
+# Avoid tracking large files and folders
+*.zip
+*.tar.gz
+*.rar
