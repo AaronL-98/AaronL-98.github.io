@@ -1,0 +1,16 @@
+/* projects.css */
+
+@import url('global.css');
+
+/* Specific styles for the projects page */
+section#projects-list {
+  background-color: #333333;
+  border-left: 4px solid #800080; /* Custom border for projects section */
+}
+
+.project {
+  background-color: #2b2b2b;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}

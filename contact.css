@@ -1,0 +1,18 @@
+/* contact.css */
+
+@import url('global.css');
+
+/* Specific styles for the contact page */
+section#contact-form {
+  background-color: #2a2a2a;
+  border: 1px solid #800080;
+  padding: 1.5em;
+}
+
+section#social-links a {
+  color: #800080; /* Custom color for social links */
+}
+
+section#social-links a:hover {
+  color: #ffffff; /* Change color on hover */
+}
