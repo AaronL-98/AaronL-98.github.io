@@ -1,0 +1,16 @@
+/* index.css */
+
+@import url('global.css');
+
+/* Specific styles for the index page */
+header {
+  background-color: #222222; /* Slightly different background for the header */
+}
+
+section#about {
+  background-color: #1e1e1e;
+}
+
+.button {
+  background-color: #555555; /* Override button color for this page */
+}
