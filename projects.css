@@ -3,8 +3,12 @@
 @import url('global.css');
 
 /* Specific styles for the projects page */
+header {
+  background-color: #333333; /* Slightly different background for the header */
+}
+
 section#projects-list {
-  background-color: #333333;
+  background-color: #2a2a2a;
   border-left: 4px solid #800080; /* Custom border for projects section */
 }
 
