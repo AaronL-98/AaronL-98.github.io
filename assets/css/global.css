@@ -1,0 +1,86 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark grey base */
+  color: #ffffff; /* White text */
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #bb86fc; /* Purple hover effect */
+}
+
+/* Header Styles */
+header {
+  background-color: #222222; /* Slightly darker grey for contrast */
+  padding: 15px 20px;
+}
+
+header .navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+header .navigation a {
+  padding: 5px 10px;
+  transition: border-bottom 0.3s;
+}
+
+header .navigation a:hover {
+  border-bottom: 2px solid #bb86fc; /* Purple hover underline */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #444444;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.button:hover {
+  border-color: #bb86fc; /* Purple border on hover */
+}
+
+/* Project & Content Styles */
+.project-details {
+  background-color: #262626;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  text-align: center;
+  padding: 40px 0;
+}
