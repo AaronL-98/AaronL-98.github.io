@@ -1,7 +1,7 @@
 title: "Your Portfolio Site"
 description: "Showcasing computer game development and devlogs."
-url: "https://yourusername.github.io/your-repo" # Replace with your GitHub Pages URL
-baseurl: "" # If using a subpath, set it here, e.g. "/portfolio"
+url: "https://aaronl-98.github.io/" # GitHub Pages URL
+baseurl: "https://aaronl-98.github.io/" # If using a subpath, set it here, e.g. "/portfolio"
 
 # Jekyll settings
 markdown: kramdown
