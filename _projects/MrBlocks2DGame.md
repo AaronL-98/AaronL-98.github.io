@@ -1,10 +1,10 @@
 ---
 layout: project
-title: "Platformer Game"
-description: "A platformer game developed for a recent game jam."
-date: 2024-11-01
+title: "MrBlocks 2D Game"
+description: "A 2D puzzle-platformer game jam entry."
+date: 2024-01-01
+demo_link: "https://example.itch.io/mrblocks2d" # Replace with real link if hosted
 ---
 
 ## Overview
-
-This platformer game was built in 48 hours for a game jam. It features unique level designs, character movement, and collectible items.
+MrBlocks 2D Game is a puzzle-platformer featuring unique block mechanics...

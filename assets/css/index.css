@@ -1,12 +1,9 @@
-/* index.css */
-
-@import url('global.css');
-
-/* Specific styles for the index page */
-section#about {
-  background-color: #1e1e1e;
+.introduction {
+  text-align: center;
+  padding: 40px 0;
 }
 
-.button {
-  background-color: #555555; /* Override button color for this page */
+.introduction h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }

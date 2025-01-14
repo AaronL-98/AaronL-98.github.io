@@ -71,3 +71,16 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.rar
+
+# Jekyll files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+
+# System files
+*.swp
+*.lock
+.DS_Store
+node_modules/
+

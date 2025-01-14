@@ -1,22 +1,16 @@
 // devlog.js
 
-// Function to open the overlay with specific project details
-function openOverlay(projectId) {
-    // Here you would load project details dynamically based on projectId
-    document.getElementById("project-overlay").style.display = "flex";
-  }
+function openOverlay(projectData) {
+  const overlay = document.getElementById('project-overlay');
+  const title = document.getElementById('overlay-title');
+  const desc = document.getElementById('overlay-description');
+
+  title.textContent = projectData.title;
+  desc.textContent = projectData.description;
   
-  // Function to close the overlay
-  function closeOverlay() {
-    document.getElementById("project-overlay").style.display = "none";
-  }
-  
-  // Add event listeners to project links
-  document.querySelectorAll(".project-link").forEach(link => {
-    link.addEventListener("click", function(event) {
-      event.preventDefault();
-      const projectId = event.target.getAttribute("data-project");
-      openOverlay(projectId);
-    });
-  });
-  
+  overlay.style.display = 'flex';
+}
+
+function closeOverlay() {
+  document.getElementById('project-overlay').style.display = 'none';
+}

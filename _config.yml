@@ -1,29 +1,37 @@
-title: "Portfolio of Aaron Lewis"
-description: "A portfolio showcasing my game development and other projects with devopment logs."
-baseurl: ""  # Leave empty if the site is deployed at the root
-url: "https://yourusername.github.io/portfolio"  # Update with your GitHub Pages URL
-theme: minima  # or set to custom theme if you have one
+title: "Your Portfolio Site"
+description: "Showcasing computer game development and devlogs."
+url: "https://yourusername.github.io/your-repo" # Replace with your GitHub Pages URL
+baseurl: "" # If using a subpath, set it here, e.g. "/portfolio"
 
-# Site settings
+# Jekyll settings
 markdown: kramdown
 permalink: pretty
 
-# Collections (for Projects and Devlogs)
+# Theme or custom
+theme: minima # or remove if you want a fully custom approach
+
+# Collections for Projects & Devlogs
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:title/
   devlogs:
     output: true
-    permalink: /devlog/:path/
+    permalink: /devlog/:title/
 
-# Include CSS assets
-sass:
-  style: compressed
+# Enable plugins if needed, e.g. jekyll-seo-tag, etc.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Navigation Links
-header_pages:
-  - index.md
-  - projects.md
-  - devlog.md
-  - contact.md
+# Build settings
+exclude:
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".github"
+  - "README.md"
+
+# If using GitHub Pages with a custom build, you may need these lines:
+# future: true
+# incremental: false
