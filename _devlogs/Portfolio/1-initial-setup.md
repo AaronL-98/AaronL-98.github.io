@@ -6,7 +6,7 @@ Today, I set up the basic structure for my portfolio, including essential HTML f
 
 ## Key Highlights
 - **Creation**: Created GitHub repository and configured GitHub Pages.
-- **Development Goals**: Get Started, start the foundation for building my portfolio and research best ways to highlight my skillset.
+- **Development Goals**: Get started, begin building my portfolio, and research best ways to highlight my skillset.
 
 ## Next Steps
 - Begin creating the main pages: `index`, `projects`, and `contact`.

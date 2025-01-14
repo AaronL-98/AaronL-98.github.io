@@ -1,12 +1,14 @@
-# Page Structure
-**Date**: November 4, 2024
+# Page Structure and Navigation
+**Date**: September 22, 2024
 
 ## Summary
-Create the basic page structure including essential HTML files, 
+I created the main HTML files and established a simple navigation structure. The pages (`index`, `projects`, `contact`, and `devlog`) are now linked via a consistent header menu.
 
 ## Key Highlights
-- **Page Structure**: Create the main pages: `index`, `projects`, `contact`, `devlog` and secondary page `gamejam`.
-- **Development Goals**: Build basic pages required, add required information needed on each page.
+- **Navigation**: A global header to link all core pages.
+- **Footer**: Basic footer layout for essential site info (e.g., copyright).
+- **Responsiveness**: Laid out columns using basic CSS flex properties to ensure a mobile-friendly site.
 
 ## Next Steps
-- Start designing the color scheme and layout for a cohesive look and feel.
+- Develop a dark-themed color scheme (black/dark gray background, white text, purple hovers).
+- Add initial project details to `projects` and a placeholder contact form on `contact`.

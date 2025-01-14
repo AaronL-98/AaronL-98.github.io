@@ -1,12 +1,6 @@
 ---
 layout: devlog
-title: Devlog
+title: "Devlog"
 ---
 
-# Developer Log
-
-Welcome to my developer log! Here you'll find all the latest updates on my ongoing game development projects:
-
-{% for devlog in site.devlogs %}
-- [{{ devlog.title }}]({{ devlog.url }}) - {{ devlog.date | date: "%B %d, %Y" }}
-{% endfor %}
+<!-- The devlog layout will automatically list all posts in _devlogs -->

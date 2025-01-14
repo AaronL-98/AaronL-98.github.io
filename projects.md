@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Projects
+title: "Projects"
 ---
 
 # Projects
 
-Here are some of my recent game development projects:
+Below is a list of my current and past game development projects:
 
 {% for project in site.projects %}
 - [{{ project.title }}]({{ project.url }})

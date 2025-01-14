@@ -1,14 +1,14 @@
-# Creating a Responsive Layout and Color Scheme
-**Date**: November 5, 2024
+# Layout and Color Scheme
+**Date**: September 25, 2024
 
 ## Summary
-Developed a responsive layout with a three-row structure(Head, Body, Foot) and three-columb(Left, Middle, Right) that adjusts for screen sizes. Implemented a dark color scheme with a black/dark grey base and white text, adding a purple border for button hover effects.
+I implemented a three-column layout for certain pages (especially the devlog) and finalized a dark color scheme with purple accents.
 
 ## Key Highlights
-- **Header-Body-Footer Structure**: Established a clean layout with a header for navigation, a body with three responsive columns, and a footer.
-- **Responsive Design**: CSS was used to ensure content wraps and adjusts dynamically for different screen sizes.
-- **Color Scheme**: A dark theme with purple accents creates a modern and professional look.
+- **Color Palette**: Black/dark gray background, white text, and purple (`#bb86fc`) hover effects.
+- **Three-Column Structure**: Devlog page now has a left column (for current project highlights), a central column (for project lists or devlog links), and room for an optional right column.
+- **Global Styles**: Created a `global.css` file to house universal styles, ensuring each page maintains a cohesive look.
 
 ## Next Steps
-- Add individual stylesheets for each page, inheriting global styles to allow for specific adjustments.
-- Start developing the devlog page and structure for posts.
+- Introduce a Markdown-based devlog system to simplify posting updates.
+- Investigate using Jekyll to manage content and generate pages automatically.
