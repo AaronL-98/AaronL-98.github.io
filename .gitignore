@@ -72,15 +72,30 @@ Thumbs.db
 *.tar.gz
 *.rar
 
-# Jekyll files
-.sass-cache/
+# Jekyll and Site Artifacts
+_site/
 .jekyll-cache/
 .jekyll-metadata
-_site/
+.sass-cache/
 
-# System files
+# Bundler-specific Files
+/vendor/
+/vendor/bundle
+/vendor/cache
+/vendor/ruby
+
+# Ruby environment
+Gemfile.lock
+# ^ Some projects prefer to keep Gemfile.lock in version control for consistent builds
+#   If you want fully reproducible builds across collaborators, consider removing this line.
+
+# Node Modules (if using npm or Yarn for any front-end tasks)
+node_modules/
+
+# System Files
+.DS_Store
+Thumbs.db
 *.swp
 *.lock
-.DS_Store
-node_modules/
+
 
