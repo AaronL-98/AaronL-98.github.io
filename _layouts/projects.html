@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="projects-grid">
+  <h1>{{ page.title }}</h1>
+  
+  <!-- Loop through all items in the `projects` collection -->
+  <div class="grid-container">
+    {% for project in site.projects %}
+      <div class="grid-item" 
+           onclick="openOverlay('{{ project.project_id }}')"
+           data-project-id="{{ project.project_id }}">
+        <!-- <img src="{{ project.image }}" alt="{{ project.title }} thumbnail" /> -->
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Overlay container - hidden by default, toggled via JavaScript -->
+<div id="project-overlay" class="overlay" style="display: none;">
+  <div class="overlay-content">
+    <span class="close-button" onclick="closeOverlay()">&times;</span>
+    <h2 id="overlay-title">Project Title</h2>
+    <p id="overlay-description">Project description or overview.</p>
+    <div id="overlay-logs">Loading logs...</div>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/overlay.js' | relative_url }}"></script>
