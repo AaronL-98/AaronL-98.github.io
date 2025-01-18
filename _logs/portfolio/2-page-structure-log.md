@@ -1,3 +1,9 @@
+---
+title: "Project Structure"
+date: 2024-09-22 
+project: "portfolio_site"
+---
+
 # Page Structure and Navigation
 **Date**: September 22, 2024
 

@@ -11,6 +11,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+  logs:
+    output: false # or true if you want each log to have its own page
+    permalink: /logs/:project/:title/
 
 # Build settings
 exclude:

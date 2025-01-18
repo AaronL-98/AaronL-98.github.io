@@ -1,3 +1,9 @@
+---
+title: "Adding Devlog Feature"
+date: 2024-10-01 
+project: "portfolio_site"
+---
+
 # Adding the Devlog Feature
 **Date**: October 1, 2024
 
