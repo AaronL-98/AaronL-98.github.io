@@ -44,3 +44,21 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}
+.log-entry {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+.log-entry h4 {
+  margin-bottom: 0.5rem;
+}
+
+.overlay-content {
+  max-height: 80vh;
+  overflow-y: auto;
+  /* ...other styling... */
+}

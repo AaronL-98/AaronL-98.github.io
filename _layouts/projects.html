@@ -5,27 +5,36 @@ layout: default
 <section class="projects-grid">
   <h1>{{ page.title }}</h1>
   
-  <!-- Loop through all items in the `projects` collection -->
   <div class="grid-container">
     {% for project in site.projects %}
-      <div class="grid-item" 
-           onclick="openOverlay('{{ project.project_id }}')"
-           data-project-id="{{ project.project_id }}">
-        <!-- <img src="{{ project.image }}" alt="{{ project.title }} thumbnail" /> -->
+      <div class="grid-item" onclick="openOverlay('{{ project.project_id }}')">
+        <img src="{{ project.image }}" alt="{{ project.title }}" />
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
+        
+        <!-- Hidden logs container we reveal in the overlay -->
+        <div class="hidden logs-for-{{ project.project_id }}">
+          {% assign project_logs = site.logs | where: "project", project.project_id | sort: "date" %}
+          {% for log in project_logs %}
+            <article class="log-entry">
+              <h4>{{ log.date | date: "%B %d, %Y" }}: {{ log.title }}</h4>
+              {{ log.content | markdownify }}
+            </article>
+          {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>
 </section>
+
 
 <!-- Overlay container - hidden by default, toggled via JavaScript -->
 <div id="project-overlay" class="overlay" style="display: none;">
   <div class="overlay-content">
     <span class="close-button" onclick="closeOverlay()">&times;</span>
     <h2 id="overlay-title">Project Title</h2>
-    <p id="overlay-description">Project description or overview.</p>
-    <div id="overlay-logs">Loading logs...</div>
+    <p id="overlay-description">Project description here...</p>
+    <div id="overlay-logs">Logs go here...</div>
   </div>
 </div>
 
