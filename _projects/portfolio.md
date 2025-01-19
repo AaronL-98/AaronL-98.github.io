@@ -1,6 +1,6 @@
 ---
 layout: project
-project_id: portfolio_site
+project_id: "portfolio_site"
 title: "portfolio site"
 description: "A Jekyll-based portfolio for showcasing projects."
 # image: "/assets/images/projectA-thumbnail.png"
