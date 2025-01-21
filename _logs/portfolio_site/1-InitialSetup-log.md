@@ -1,5 +1,8 @@
-# Initial Setup and Project Structure
-**Date**: September 19, 2024
+---
+title: "Initial Setup"
+date: 2024-09-19 
+project: "portfolio_site"
+---
 
 ## Summary
 Today, I set up the basic structure for my portfolio, including essential HTML files and a GitHub Pages configuration.

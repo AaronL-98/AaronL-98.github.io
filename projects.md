@@ -1,12 +1,7 @@
 ---
-layout: default
-title: "Projects"
+layout: projects
+title: "All Projects"
 ---
 
-# Projects
-
-Below is a list of my current and past game development projects:
-
-{% for project in site.projects %}
-- [{{ project.title }}]({{ project.url }})
-{% endfor %}
+<!-- The content here is optional; the layout can handle the loop -->
+Below is a grid of projects. Click a project to see an overview and logs!

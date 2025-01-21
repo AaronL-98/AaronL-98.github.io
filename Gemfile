@@ -1,13 +1,20 @@
 source "https://rubygems.org"
 
-# Jekyll is the main static site generator
-gem "jekyll"
+# Core Jekyll
+gem "jekyll", "~> 4.3"
 
-# Minima Theme
-gem "minima"
+# If you want to mimic GitHub Pages exactly, replace the above with:
+# gem "github-pages", group: :jekyll_plugins, version: "~> 227"
 
-# If you’re using GitHub Pages' environment exactly, you can replace "jekyll" with:
-# gem "github-pages", group: :jekyll_plugins, version: "~> 227"  # Example version
+# Minima theme (if you choose to rely on it)
+gem "minima", "~> 2.5"
 
-# WEBrick is needed by older Jekyll or Ruby versions for 'jekyll serve'
-gem "webrick"
+# WEBrick is often needed for local Jekyll serve
+gem "webrick", "~> 1.7"
+
+# Example plugins
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+
+# If you want advanced Sass, add:
+# gem "sassc"

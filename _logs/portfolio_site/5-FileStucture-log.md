@@ -1,4 +1,10 @@
-# File Structure and Repository Organization
+---
+title: "File Structure and Repo Organisation"
+date: 2024-10-05 
+project: "portfolio_site"
+---
+
+# File Structure and Repository Organisation
 **Date**: October 5, 2024
 
 ## Summary

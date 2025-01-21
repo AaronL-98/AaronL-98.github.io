@@ -1,4 +1,4 @@
-/* Reset & Universal */
+/* reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,78 +7,64 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #1a1a1a; /* Dark grey base */
-  color: #ffffff;            /* White text */
+  background-color: #1a1a1a; /* Dark grey */
+  color: #ffffff; /* White text */
   line-height: 1.6;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
 a:hover {
-  color: #bb86fc; /* Purple accent */
+  color: #bb86fc; /* Purple accent on hover */
 }
 
-/* Layout Wrappers */
+/* Container */
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1rem;
 }
 
-/* Header & Nav */
+/* Header */
 .site-header {
   background-color: #222222;
-  padding: 15px 20px;
+  padding: 1rem;
 }
-
-.site-title a {
+.site-header a {
   color: #ffffff;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
+/* Navigation */
 .site-nav {
   background-color: #333333;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
 }
-
 .site-nav ul {
-  list-style: none;
   display: flex;
+  list-style: none;
   gap: 1rem;
-}
-
-.site-nav a:hover {
-  border-bottom: 2px solid #bb86fc;
 }
 
 /* Footer */
 .site-footer {
-  background-color: #222222;
   text-align: center;
-  padding: 15px;
-  margin-top: 20px;
+  background-color: #222222;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  color: #ffffff;
-  background-color: #444444;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: border 0.3s;
+/* Specific Sections */
+.home-section {
+  text-align: center;
+  padding: 2rem 0;
 }
-
-.button:hover {
-  border-color: #bb86fc;
-}
-
-/* Utility Classes */
-.hidden {
-  display: none;
+.contact-section {
+  background-color: #262626;
+  padding: 2rem;
+  margin-top: 1rem;
 }

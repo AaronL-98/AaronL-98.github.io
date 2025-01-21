@@ -1,3 +1,9 @@
+---
+title: "GitHub Actions and CI/CD Pipeline"
+date: 2024-10-15 
+project: "portfolio_site"
+---
+
 # GitHub Actions and CI/CD Pipeline
 **Date**: October 15, 2024
 

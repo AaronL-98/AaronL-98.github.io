@@ -1,3 +1,9 @@
+---
+title: "Layout and Color Scheme"
+date: 2024-09-25 
+project: "portfolio_site"
+---
+
 # Layout and Color Scheme
 **Date**: September 25, 2024
 

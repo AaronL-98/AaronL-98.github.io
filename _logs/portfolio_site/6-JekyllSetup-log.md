@@ -1,3 +1,9 @@
+---
+title: "Jekyll Setup and Layout Conversion"
+date: 2024-10-10 
+project: "portfolio_site"
+---
+
 # Jekyll Setup and Layout Conversion
 **Date**: October 10, 2024
 
