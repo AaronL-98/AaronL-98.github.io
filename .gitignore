@@ -80,14 +80,6 @@ _site/
 
 # Bundler-specific Files
 /vendor/
-/vendor/bundle
-/vendor/cache
-/vendor/ruby
-
-# Ruby environment
-Gemfile.lock
-# ^ Some projects prefer to keep Gemfile.lock in version control for consistent builds
-#   If you want fully reproducible builds across collaborators, consider removing this line.
 
 # Node Modules (if using npm or Yarn for any front-end tasks)
 node_modules/
