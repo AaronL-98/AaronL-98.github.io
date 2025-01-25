@@ -1,25 +1,25 @@
 title: "My Portfolio"
 description: "A professional portfolio showcasing development and testing projects."
-baseurl: ""  # If publishing at yourusername.github.io, leave empty
-url: "https://AaronL-98.github.io/"  # Update with actual GitHub Pages URL
-
+url: "https://AaronL-98.github.io/" # GitHub Pages URL
 markdown: kramdown
-theme: minima  # Or remove if using purely custom layouts
+# theme: minima  # Or remove if using purely custom layouts
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:title/
-  logs:
-    output: true # or true if you want each log to have its own page
 
 
 # Build settings
+# Exclude typical build directories
 exclude:
   - "node_modules"
+  - "Gemfile"
   - "Gemfile.lock"
   - "vendor"
+  - ".gitignore"
+  - "README.md"
   - ".bundle"
   - ".jekyll-cache"
   - "_site"

@@ -22,6 +22,11 @@ jobs:
           gem install bundler
           bundle install
 
+      - name: Fetch Notion Projects
+        run: |
+          npm install
+          node assets/js/fetch-notion-projects.js
+
       - name: Build Site
         run: |
           bundle exec jekyll build --trace
