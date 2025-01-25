@@ -7,11 +7,14 @@ layout: default
   
   <!-- Loop through all items in the `projects` collection -->
   <div class="notion-projects">
-    <iframe
-      src="https://aaron-lewis-portfolio.notion.site/Projects-18261eb4a21180eeb439f603bcdffbfd"
-      style="width:100%;height:600px;border:none;"
-      allowfullscreen
-    ></iframe>
+    {% for project in site.projects %}
+      <div class="project-card">
+        <a href="{{ project.url | relative_url }}">
+          <!-- <img src="{{ project.image | relative_url }}" alt="{{ project.title }}"> -->
+          <h2>{{ project.title }}</h2>
+        </a>
+      </div>
+    {% endfor %}
   </div>
 </section>
 ```
