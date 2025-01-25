@@ -7,10 +7,12 @@ section#contact-form {
   background-color: #2a2a2a;
   border: 1px solid #800080;
   padding: 1.5em;
+  border-radius: 5px;
 }
 
 section#social-links a {
   color: #800080; /* Custom color for social links */
+  margin-right: 15px;
 }
 
 section#social-links a:hover {

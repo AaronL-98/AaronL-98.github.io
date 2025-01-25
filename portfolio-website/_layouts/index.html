@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} | Home</title>
+  <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main class="container">
+    <section id="introduction" class="introduction">
+      <h1>Welcome to {{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <a href="/projects/" class="button">View Projects</a>
+    </section>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

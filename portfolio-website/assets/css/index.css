@@ -1,0 +1,27 @@
+/* index.css */
+
+@import url('global.css');
+
+/* Specific styles for the index page */
+body {
+  background-color: #1e1e1e; /* Dark background for the index page */
+}
+
+.introduction {
+  color: #ffffff; /* White text for the introduction section */
+  text-align: center;
+  padding: 40px 0;
+}
+
+.button {
+  background-color: #800080; /* Purple button background */
+  color: #ffffff; /* White text for buttons */
+  border: 2px solid transparent;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.button:hover {
+  border-color: #bb86fc; /* Purple border on hover */
+}

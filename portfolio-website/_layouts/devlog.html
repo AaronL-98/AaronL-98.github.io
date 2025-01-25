@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>Developer Log | Portfolio</title>
   <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
 </head>
 <body>
   {% include header.html %}
   <main class="container">
-    {{ content }}
+    <h1>Developer Log</h1>
+    <section class="devlog-entries">
+      {{ content }}
+    </section>
   </main>
   {% include footer.html %}
+  <script src="{{ '/assets/js/overlay.js' | relative_url }}"></script>
 </body>
 </html>
