@@ -1,6 +1,6 @@
 title: "My Portfolio"
 description: "A professional portfolio showcasing development and testing projects."
-url: $JEKYLL_ENV == "production" ? "https://AaronL-98.github.io/" : "http://localhost:4000"
+url: "https://AaronL-98.github.io/" # GitHub Pages URL
 markdown: kramdown
 # theme: minima  # Or remove if using purely custom layouts
 

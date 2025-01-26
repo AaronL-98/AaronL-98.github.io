@@ -26,19 +26,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Set environment to production
-        run: echo "JEKYLL_ENV=production" >> $GITHUB_ENV
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set environment to production
+        run: echo "JEKYLL_ENV=prod" >> $GITHUB_ENV
+
+      - name: Build site
+        run: bundle exec jekyll build --config _config.yml
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
