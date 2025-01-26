@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.grid-item:hover, .grid-item:focus {
+  background-color: #444;
+  outline: 2px solid #bb86fc;
+}
+
 /* Overlay Styles */
 .overlay {
   position: fixed;

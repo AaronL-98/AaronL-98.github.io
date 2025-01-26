@@ -5,12 +5,9 @@
 *.userosscache
 *.sln.docstates
 
-# User-specific folders
+# IDE-specific folders
 .vscode/
-.vs/
-_Tmp/
-.vscode/
-.vscode-test/
+.idea/
 
 # Auto-generated files
 *.log
@@ -27,65 +24,38 @@ _Tmp/
 *.idb
 *.VC.db
 
-# Visual Studio Code workspace
-.vscode/
-
-# Build Folders (you can tailor this based on your build directories)
+# Build folders
 bin/
 obj/
 build/
-ipch/
 _Debug/
 _Release/
 
 # Packages
 packages/
-
-# NuGet Packages
-*.nupkg
-*.snupkg
 .nuget/
 
-# Other Files
-*.Publish.xml
-.project/
-*.PublishProfiles/
-.idea/
-TestResults/
-buildlog.*
-*.rsync/
-.repos/
-ipch/
-
-# Rider specific files
-.idea/
-.idea_modules/
-
-# Windows image file caches
-Thumbs.db
-
-# macOS finder
-.DS_Store
-
-# Avoid tracking large files and folders
-*.zip
-*.tar.gz
-*.rar
-
-# Jekyll and Site Artifacts
+# Jekyll artifacts
 _site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
+#Gemfile.lock
+*vendor/
 
-# Bundler-specific Files
-/vendor/
-
-# Node Modules (if using npm or Yarn for any front-end tasks)
+# Node Modules
 node_modules/
 
-# System Files
+# macOS Finder
 .DS_Store
+
+# Windows image file caches
 Thumbs.db
-*.swp
-*.lock
+
+# Avoid large files
+*.zip
+*.tar.gz
+*.rar
+
+# Test artifacts
+TestResults/
