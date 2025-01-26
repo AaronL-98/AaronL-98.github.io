@@ -22,15 +22,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2  # Use the Ruby version compatible with your project
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
       - name: Set environment to production
-        run: echo "JEKYLL_ENV=prod" >> $GITHUB_ENV
+        run: echo "JEKYLL_ENV=production" >> $GITHUB_ENV
 
       - name: Build site
         run: bundle exec jekyll build --config _config.yml
