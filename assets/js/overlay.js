@@ -12,7 +12,6 @@ function openOverlay(projectId) {
 
   // Fetch project data
   fetchProjectMeta(projectId);
-  fetchProjectLogs(projectId);
 }
 
 function closeOverlay() {
@@ -21,15 +20,20 @@ function closeOverlay() {
 
 function fetchProjectMeta(projectId) {
   // Fetch project data from the HTML
-  const projectElement = document.querySelector(`[data-project-id="${projectId}"]`);
-  if (projectElement) {
-    const title = projectElement.querySelector('h2').textContent;
-    const description = projectElement.querySelector('p').textContent;
-    document.getElementById('overlay-title').textContent = title;
-    document.getElementById('overlay-description').textContent = description;
-  } else {
-    document.getElementById('overlay-title').textContent = 'Project not found';
-    document.getElementById('overlay-description').textContent = '';
+  try {
+    // Fetch project meta logic
+    const projectElement = document.querySelector(`[data-project-id="${projectId}"]`);
+    if (projectElement) {
+      const title = projectElement.querySelector('h2').textContent;
+      const description = projectElement.querySelector('p').textContent;
+      document.getElementById('overlay-title').textContent = title;
+      document.getElementById('overlay-description').textContent = description;
+    } else {
+      document.getElementById('overlay-title').textContent = 'Project not found';
+      document.getElementById('overlay-description').textContent = '';
+    }
+  } catch (error) {
+    console.error('Error fetching project meta:', error);
   }
 }
 
