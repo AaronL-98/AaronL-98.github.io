@@ -1,3 +1,10 @@
+/* Styles unique to the home page */
+.home-section {
+  text-align: center;
+  color: #e0e0e0;
+}
+
+
 .introduction {
   text-align: center;
   padding: 40px 0;
@@ -6,4 +13,23 @@
 .introduction h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+/* Ensure sections within the columns have proper spacing */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
 }

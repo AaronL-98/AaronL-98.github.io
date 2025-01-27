@@ -1,3 +1,10 @@
+/* Styles unique to the contact page */
+.contact-section {
+  padding: 40px;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
 .contact-page {
   background-color: #262626;
   padding: 20px;
