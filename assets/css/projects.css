@@ -67,3 +67,18 @@
   overflow-y: auto;
   /* ...other styling... */
 }
+
+.project-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  margin-bottom: 1rem;
+}
