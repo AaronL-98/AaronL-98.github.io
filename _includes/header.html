@@ -1,4 +1,21 @@
 <!-- _includes/header.html -->
 <header class="site-header">
-  <h2><a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a></h2>
+  <div class="header-container">
+    <div class="site-title">
+      <h2><a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a></h2>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <!-- <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+        {% if site.pages | where_exp:'p','p.name=="devlog.md"' %} -->
+        <!-- <li><a href="{{ '/devlog' | relative_url }}">Devlog</a></li> -->
+        {% endif %}
+        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- <div class="resume-link">
+      <a href="/assets/resume.pdf" download>Download Resume</a>
+    </div> -->
+  </div>
 </header>

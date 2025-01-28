@@ -1,7 +1,6 @@
 ---
 layout: contact
 title: "Contact Me"
-#permalink: "/contact/"
 ---
 
 ### Get in Touch

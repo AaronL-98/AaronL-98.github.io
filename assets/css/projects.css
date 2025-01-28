@@ -16,7 +16,6 @@
   border-radius: 4px;
   padding: 1rem;
   cursor: pointer;
-  text-align: center;
 }
 
 .grid-item:hover, .grid-item:focus {

@@ -1,12 +1,10 @@
 /* Styles unique to the home page */
+
 .home-section {
-  text-align: center;
   color: #e0e0e0;
 }
 
-
 .introduction {
-  text-align: center;
   padding: 40px 0;
 }
 
@@ -32,4 +30,39 @@
 
 .section ul li {
   margin-bottom: 10px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-content {
+  flex: 0 0 70%;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.about-photo {
+  flex: 0 0 30%;
+  max-width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
 }

@@ -1,2 +1,9 @@
-description: >
-  Worked on various software and game development projects, collaborating with cross-functional teams to deliver impactful solutions.
+- role: "Junior Test Automation Engineer"
+  company: "Sparta Global"
+  dates: "March 2023 – November 2024"
+  description: "Performed manual and automated testing for APIs and web applications. Worked in AWS cloud environments and GitLab CI/CD pipelines. Built testing frameworks using SpecFlow and Boto for robust API testing."
+
+- role: "Technical Support"
+  company: "Cirteq Ltd"
+  dates: "June 2018 – August 2018"
+  description: "Serviced machine tools and conducted routine maintenance. Streamlined processes and contributed to quality control improvements."
