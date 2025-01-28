@@ -9,6 +9,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+  logs:
+    output: true
+    permalink: /logs/:title/
 
 
 # Build settings

@@ -1,5 +1,8 @@
-.projects-grid {
-  padding: 1rem;
+/* Styles unique to the portfolio page */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 
 .grid-container {
@@ -13,7 +16,6 @@
   border-radius: 4px;
   padding: 1rem;
   cursor: pointer;
-  text-align: center;
 }
 
 .grid-item:hover, .grid-item:focus {
@@ -44,26 +46,9 @@
   max-height: 80vh; /* So it’s scrollable if logs are huge */
 }
 
-.close-button {
-  float: right;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.hidden {
-  display: none;
-}
-.log-entry {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #444;
-}
-.log-entry h4 {
-  margin-bottom: 0.5rem;
-}
-
 .overlay-content {
   max-height: 80vh;
   overflow-y: auto;
   /* ...other styling... */
 }
+

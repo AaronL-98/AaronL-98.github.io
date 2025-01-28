@@ -1,7 +1,9 @@
 ---
-layout: default
-title: "Homepage"
-#permalink: "/"
+layout: index
+title: "Home"
+content_type: page_content
+description: "Markdown content for index/hompage"
+css: "/assets/css/index.css"
 ---
 
 # Introduction
@@ -9,12 +11,6 @@ Welcome to my portfolio site. I’m a dedicated software engineer specializing i
 
 ## About Me
 I am a software developer with a background in full-stack web development and a keen interest in automation. My expertise in Ruby and Jekyll allows me to create streamlined and secure static websites, as well as dynamic applications that cater to various business needs.
-
-## Technical Skills
-    - Languages: Ruby, JavaScript, Python
-    - Frameworks/Libraries: Ruby on Rails, Sinatra, React
-    - DevOps & Tools: Docker, AWS, Git
-    - Static Site Generators: Jekyll, Hugo
 
 ## Professional Values
     - Quality & Maintainability: Writing clean, documented code

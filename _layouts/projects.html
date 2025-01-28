@@ -1,19 +1,25 @@
 ---
 layout: default
+title: "Projects"
+css: "/assets/css/projects.css"
 ---
+<head>
+  <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+</head>
 
 <section class="projects-grid">
   <h1>{{ page.title }}</h1>
-  
-  <!-- Loop through all items in the `projects` collection -->
-  <div class="notion-projects">
+  <div class="projects">
+    <!-- Loop through all items in the `projects` collection -->
     {% for project in site.projects %}
       <div class="project-card">
         <a href="{{ project.url | relative_url }}">
-          <!-- <img src="{{ project.image | relative_url }}" alt="{{ project.title }}"> -->
           <h2>{{ project.title }}</h2>
         </a>
-
+        <p>{{ project.description }}</p>
+        <div class="project-content">
+          {{ project.content | markdownify }}
+        </div>
       </div>
     {% endfor %}
   </div>
