@@ -1,9 +1,9 @@
 ---
 layout: projects
-title: Portfolio
+title: portfolio
 content_type: overview_project
 project: portfolio
-description: collection of work by Aaron Lewis
+css: "/assets/css/projects.css"
 ---
 
 # Comming Soon

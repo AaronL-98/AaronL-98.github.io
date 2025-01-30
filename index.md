@@ -7,13 +7,7 @@ css: "/assets/css/index.css"
 ---
 
 # Introduction
-Welcome to my portfolio site. I’m a dedicated software engineer specializing in Ruby and Jekyll development, with a passion for building efficient, scalable applications. Throughout this site, you’ll find information about my professional background, personal projects, and ways to get in touch.
+Welcome to my portfolio site. I’m Aaron Lewis, a dedicated **Test Automation Engineer** specializing in building **reliable testing frameworks** and **CI/CD pipelines**. My expertise spans across **C++, C#, Java, and Python**, with a strong background in cloud services like **AWS** and development workflows using **GitLab CI/CD**.
 
-## About Me
-I am a software developer with a background in full-stack web development and a keen interest in automation. My expertise in Ruby and Jekyll allows me to create streamlined and secure static websites, as well as dynamic applications that cater to various business needs.
-
-## Professional Values
-    - Quality & Maintainability: Writing clean, documented code
-    - Collaboration: Working closely with teams and stakeholders
-    - Integrity & Ownership: Taking responsibility for deliverables
-    - Continuous Learning: Keeping up with emerging technologies
+### About Me
+I am a software engineer with a background in **game development, automation testing, and DevOps**. My skills in **test automation frameworks, API testing, and cloud environments** allow me to create streamlined, scalable solutions. I thrive in **Agile environments**, collaborating with cross-functional teams to drive **quality and efficiency**.
