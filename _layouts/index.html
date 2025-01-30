@@ -11,7 +11,7 @@ css: "/assets/css/index.css"
       <div class="column-full">
         <section class="about-section">
           <div class="about-content">
-          {{ content }}
+          {{ content | markdownify }}
           </div>
           <div class="about-photo">
             <img src="/assets/img/profile.jpg" alt="Aaron Lewis">
@@ -54,6 +54,7 @@ css: "/assets/css/index.css"
             <h3>{{ job.role }}</h3>
             <p>{{ job.company }} ({{ job.dates }})</p>
             <p>{{ job.description }}</p>
+            <br>
           </div>
           {% endfor %}
         </section>
