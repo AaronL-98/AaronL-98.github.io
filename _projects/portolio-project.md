@@ -1,9 +1,9 @@
 ---
-layout: projects
+layout: project_overview
 title: portfolio
 content_type: overview_project
 project: portfolio
-css: "/assets/css/projects.css"
+css: "/assets/css/project-overview.css"
 ---
 
 # Comming Soon

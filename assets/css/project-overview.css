@@ -1,0 +1,35 @@
+
+.portfolio-project-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.portfolio-content {
+    display: flex;
+    gap: 20px;
+}
+.portfolio-sidebar {
+    flex: 0 0 30%;
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.portfolio-main-content {
+    flex: 0 0 70%;
+}
+.portfolio-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.back-button {
+    text-decoration: none;
+    background: #007acc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
