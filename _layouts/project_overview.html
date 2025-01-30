@@ -1,0 +1,26 @@
+---
+layout: default
+title: "project-overview"
+css: "/css/project_overview.css"
+---
+
+<main class="portfolio-project-container">
+  <header class="portfolio-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <section class="portfolio-content">
+    <div class="portfolio-sidebar">
+      <h2>Project Details</h2>
+      <ul>
+        <li><strong>Technologies:</strong> {{ page.technologies | join: ", " }}</li>
+        <li><strong>Date:</strong> {{ page.date }}</li>
+        <li><strong>Category:</strong> {{ page.category }}</li>
+      </ul>
+    </div>
+    
+    <div class="portfolio-main-content">
+      {{ content }}
+    </div>
+  </section>
+</main>

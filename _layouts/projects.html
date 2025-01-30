@@ -1,17 +1,17 @@
 ---
 layout: default
 title: "Projects"
+css: "/css/project.css"
 ---
 
-<section class="projects-grid">
-  <div class="projects">
+{{ content }}
+
+<section class="projects-grid-container">
+  <div class="projects-grid">
     <!-- Loop through all items in the `projects` collection -->
     {% for project in site.projects %}
       <div class="project-card">
         <a href="{{ project.url | relative_url }}"><h2>{{ project.title }}</h2></a>
-        <div class="project-content">
-          {{ content }}
-        </div>
       </div>
     {% endfor %}
   </div>
