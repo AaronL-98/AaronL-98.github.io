@@ -4,22 +4,21 @@ title: "project-overview"
 css: "/css/project_overview.css"
 ---
 
-<main class="portfolio-project-container">
+<main class="project-container">
   <header class="portfolio-header">
     <h1>{{ page.title }}</h1>
   </header>
 
-  <section class="portfolio-content">
-    <div class="portfolio-sidebar">
+  <section class="project-content">
+    <div class="project-sidebar">
       <h2>Project Details</h2>
       <ul>
-        <li><strong>Technologies:</strong> {{ page.technologies | join: ", " }}</li>
-        <li><strong>Date:</strong> {{ page.date }}</li>
-        <li><strong>Category:</strong> {{ page.category }}</li>
-      </ul>
+        <strong>Technologies:</strong> {{ page.technologies | join: ", " }}<br>
+        <strong>Date:</strong> {{ page.date | date: "%Y-%m-%d" }}<br>
+        <strong>Category:</strong> {{ page.category }}
     </div>
     
-    <div class="portfolio-main-content">
+    <div class="project-main-content">
       {{ content }}
     </div>
   </section>
