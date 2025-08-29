@@ -26,11 +26,6 @@ This project is a personal portfolio website built using Jekyll, a static site g
 - **CSS**: Styling the website to make it visually appealing.
 - **GitHub Actions**: Automating the deployment process.
 
-## Lessons Learned
-- .
-- Gained experience in setting up automated deployment pipelines with GitHub Actions.
-- Enhanced understanding of responsive web design principles.
-
 ## Links
 - 📂 [GitHub Repository]({{ page.repo }})
 {% if page.demo %}
